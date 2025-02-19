@@ -53,3 +53,9 @@
       :secondary-color "#080808"
       :text-color "white"
       :contrast-text-color "black"))))
+
+; Call xbindkeys using xdotool to use y and u in place of j and k for vi mode
+; Was unable to get vi mode scrolling working on certain modern sites with nyxt defaults
+; Fixed by mapping mod4 + y and u to scroll wheel up and down (click 4 and 5 in xdotool)
+; This hack works as a temp fix for the issue and works well with no issues
+(uiop:run-program '("xbindkeys"))
