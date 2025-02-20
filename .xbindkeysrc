@@ -1,0 +1,7 @@
+# Scroll up
+"xdotool click 4"
+  Mod4 + u 
+
+# Scroll down
+"xdotool click 5"
+  Mod4 + y
